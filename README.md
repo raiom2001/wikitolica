@@ -2,10 +2,6 @@
 
 Wiki Católica é um portal online dedicado a prover recursos educacionais sobre a fé católica. Aqui você encontrará documentos importantes, vídeos e links para expandir seu conhecimento sobre a religião católica.
 
-## Visualizações da Interface
-
-![Screenshot do Homepage](url_para_imagem_do_homepage.jpg)
-
 ## Tecnologias Utilizadas
 
 - HTML
