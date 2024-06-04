@@ -1,17 +1,17 @@
-/* Modern Style CSS */
+/* Modern Style CSS - Modo Claro como padrão */
 
 body {
     font-family: 'Verdana', sans-serif;
-    background-color: #121212;
-    color: #ffffff;
+    background-color: #ffffff; /* Cor de fundo clara */
+    color: #121212; /* Cor de texto escura */
     margin: 0;
     padding: 0;
     transition: background-color 0.3s, color 0.3s;
 }
 
 header {
-    background-color: #1e1e1e;
-    color: #fffb00;
+    background-color: #fffb00; /* Cor de fundo do cabeçalho */
+    color: #121212; /* Cor de texto do cabeçalho */
     padding: 20px 0;
     text-align: center;
 }
@@ -23,8 +23,8 @@ header h1 {
 }
 
 #theme-toggle {
-    background-color: #fffb00;
-    color: #ffffff;
+    background-color: #121212; /* Cor de fundo do botão */
+    color: #fffb00; /* Cor de texto do botão */
     border: none;
     padding: 10px 20px;
     font-size: 1em;
@@ -34,11 +34,11 @@ header h1 {
 }
 
 #theme-toggle:hover {
-    background-color: #dcff400;
+    background-color: #333333; /* Cor de fundo do botão ao passar o mouse */
 }
 
 nav {
-    background-color: #282828;
+    background-color: #fffb00; /* Cor de fundo da navegação */
     padding: 15px;
     text-align: center;
     position: sticky;
@@ -47,7 +47,7 @@ nav {
 }
 
 nav a {
-    color: #ffffff;
+    color: #121212; /* Cor de texto dos links */
     margin: 0 20px;
     text-decoration: none;
     font-weight: bold;
@@ -56,7 +56,7 @@ nav a {
 }
 
 nav a:hover {
-    color: #dcff401;
+    color: #ffffff; /* Cor de texto dos links ao passar o mouse */
 }
 
 .container {
@@ -66,10 +66,10 @@ nav a:hover {
 }
 
 h2 {
-    color: #dcff401;
+    color: #121212; /* Cor de texto dos títulos */
     margin-top: 30px;
     font-size: 2em;
-    border-bottom: 2px solid #dcff40;
+    border-bottom: 2px solid #121212; /* Cor da borda inferior */
     padding-bottom: 10px;
 }
 
@@ -85,7 +85,7 @@ ul {
 }
 
 li {
-    background: #1e1e1e;
+    background: #f0f0f0; /* Cor de fundo dos itens da lista */
     margin: 15px 0;
     padding: 15px;
     border-radius: 8px;
@@ -93,78 +93,80 @@ li {
 }
 
 li:hover {
-    background: #2c2c2c;
+    background: #e0e0e0; /* Cor de fundo dos itens da lista ao passar o mouse */
 }
 
 a {
     text-decoration: none;
-    color: #fffb00;
+    color: #121212; /* Cor de texto dos links */
     font-weight: bold;
     font-size: 1.1em;
 }
 
 a:hover {
-    color: #dcff400;
+    color: #333333; /* Cor de texto dos links ao passar o mouse */
 }
 
 footer {
-    background-color: #fffb00;
-    font-color: #fffb00;
-    color: #ebbfbf;
+    background-color: #121212; /* Cor de fundo do rodapé */
+    color: #fffb00; /* Cor de texto do rodapé */
     text-align: center;
     padding: 20px 0;
     position: relative;
     bottom: 0;
     width: 100%;
-    border-top: 2px solid #fffb00;
+    border-top: 2px solid #121212; /* Cor da borda superior */
 }
 
+/* Estilos para o Modo Escuro */
 .dark-mode {
-    background-color: #ffffff;
-    color: #121212;
+    background-color: #121212;
+    color: #ffffff;
 }
 
 .dark-mode header {
+    background-color: #1e1e1e;
+    color: #fffb00;
+}
+
+.dark-mode nav {
+    background-color: #282828;
+}
+
+.dark-mode nav a {
+    color: #ffffff;
+}
+
+.dark-mode nav a:hover {
+    color: #dcff401;
+}
+
+.dark-mode #theme-toggle {
     background-color: #fffb00;
     color: #121212;
 }
 
-.dark-mode nav {background-color: #fffb00}
-
-.dark-mode nav a {
-    color: #121212;
-}
-
-.dark-mode nav a:hover {
-    color: #ffffff;
-}
-
-.dark-mode #theme-toggle {
-    background-color: #121212;
-    color: ##dcff40;
-}
-
 .dark-mode #theme-toggle:hover {
-    background-color: #333333;
+    background-color: #dcff400;
 }
 
 .dark-mode li {
-    background: #f0f0f0;
+    background: #1e1e1e;
 }
 
 .dark-mode li:hover {
-    background: #e0e0e0;
+    background: #2c2c2c;
 }
 
 .dark-mode a {
-    color: #121212;
+    color: #fffb00;
 }
 
 .dark-mode a:hover {
-    color: #333333;
+    color: #dcff400;
 }
 
 .dark-mode footer {
-    background-color: ##dcff40;
+    background-color: #fffb00;
     color: #121212;
 }
